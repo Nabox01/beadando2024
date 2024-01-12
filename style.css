@@ -1,0 +1,93 @@
+body{
+    background-image: url(webhatter.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+main{
+    width: 80%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgb(127, 1, 1, 0.65);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "n n n"
+    "a a a"
+    "f f f";
+    color: aliceblue;
+}
+
+header{
+    margin-left: 20px;
+    grid-area: h;
+    font-size: larger;
+}
+
+#kep{
+    float: right;
+    width: 250px;
+    height: 75px;
+    padding-right: 2%;
+}
+
+nav{
+    grid-area: n;
+    text-align: center;
+}
+
+article{
+    grid-area: a;
+}
+
+footer{
+    grid-area: f;
+    text-align: center;
+    background-color: rgb(127, 1, 1);
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: slateblue;
+    font-size: x-large;
+    text-decoration-line: underline;
+}
+
+ #verstappen{
+    height: 300px;
+    width: auto;
+    float: initial;
+    margin-left: 35%;
+ }
+
+ td{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+    border: 2px solid gold;
+ }
+
+ th{
+    color: gold;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid gold;
+ }
+
+ table{
+    border: 2px solid gold;
+    margin-left: 25%;
+ }
